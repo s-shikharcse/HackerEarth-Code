@@ -1,0 +1,12 @@
+#include<isotream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main()
+{
+	int t;
+	cin>>t;
+	string s,w;
+	while(t--)
+	
+}
