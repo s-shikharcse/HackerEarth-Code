@@ -1,0 +1,22 @@
+-PS-->SYN packet discovery best against stateful firewalls
+-PA-->ACK packet discovery best against stateless firewalls
+-sP-->ping sweeps
+-F-->fast scan  
+-sUV-->u for UDP scan and V vor version detection
+-T4-->use aggressive timing
+-P0-->to ping the host if it blocks the normal ping request
+-p 21 22 23 ... -->to scan for some particular ports
+-sV-->vrsion detection
+
+C - Nsock, Ncat, Nbase, nmap-update
+C++ - Nmap, Nping, libnetutil
+
+
+=====================NCAT=======================
+Network connector
+1-ncat -C scanme.nmap.org 80   /*Ncat as web browser*/// "-C"for turning on the CLRF
+2-ncat -l localhost 8080 < ncat.http   /*ncat feeding the server with the content of the file stored in this "-l" used for listening*/
+
+
+
+
